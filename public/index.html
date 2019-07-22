@@ -156,16 +156,20 @@
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
-									<form>
+									<form method="POST" action="https://formspree.io/johnaagudelo@gmail.com">
 										<div class="fields">
 											<div class="field half">
 											<div class="field">
+												<label for="message">¿Cúal es tú email?</label>
+												<input required type="email" name="email" placeholder="Email">
+											</div>
+											<div class="field">
 												<label for="message">Mensaje</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<textarea name="message" id="message" rows="5" placeholder="Mensaje"></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Enviar</a></li>
+											<li><button class="button submit" type="submit">Enviar</button></li>
 										</ul>
 									</form>
 								</section>
