@@ -503,7 +503,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) .container-fullwidth #top-
 #page-menu.dots-menu nav li .dots-menu-caption:after {
 	right: auto;
 	left: -5px;
-	border-right: 6px solid #1ABC9C;
+	border-right: 6px solid #282265;
 	border-left: 0;
 }
 
@@ -3002,13 +3002,13 @@ body.device-touch .gmap:after {
 .title-block {
 	padding: 2px 20px 3px 0;
 	border-left: 0;
-	border-right: 7px solid #1ABC9C;
+	border-right: 7px solid #282265;
 }
 
 .title-block-right {
 	padding: 2px 0 3px 20px;
 	border-right: 0;
-	border-left: 7px solid #1ABC9C;
+	border-left: 7px solid #282265;
 	text-align: left;
 }
 
