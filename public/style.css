@@ -12924,3 +12924,9 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+.language{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
